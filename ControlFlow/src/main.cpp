@@ -23,7 +23,7 @@ int main() {
 
     if (dimensions[0] > max_dimension || dimensions[1] > max_dimension || dimensions[2] > max_dimension) {
         cout << "Sorry, we can't ship it!" << endl;
-    } else {
+    } else { 
         const double base_cost {2.5};
         const double tier_one_surcharge {0.10};
         const double tier_two_surcharge {0.25};
